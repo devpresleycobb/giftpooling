@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "643117527883",
+    "firebase_url": "https://giftpooling-9d43d.firebaseio.com",
+    "project_id": "giftpooling-9d43d",
+    "storage_bucket": "giftpooling-9d43d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643117527883:android:52659b3cfd6cefcf6e2ece",
+        "android_client_info": {
+          "package_name": "com.giftpooling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643117527883-ira248l7sf63h057alomavuftaqe0vou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.giftpooling",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "643117527883-p53b76f3k3932sfq1ud7u6vcimvjili4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4DrYIASzXq6x5rgnm3k4UUOG7ufP4XN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643117527883-p53b76f3k3932sfq1ud7u6vcimvjili4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "643117527883-h5alkhh6dfjt6f7sjpf8b4d1kiot55rc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.giftpooling"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

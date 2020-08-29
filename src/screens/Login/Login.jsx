@@ -2,10 +2,14 @@ import React, {Component} from 'react';
 import { Text, View, Image, TouchableOpacity, ScrollView } from "react-native";
 import InputTextField from "../../components/InputTextField";
 import styles from './Login.styles';
-import { useNavigation } from '@react-navigation/native';
+import {connect} from 'react-redux';
+import {signin} from '../../store/actions/auth';
 
-class Login extends Component {
+class Login extends Component { 
   render() {
+    const {
+        handleSignin
+      } = this.props;
     return (
       <ScrollView style={styles.container}>
         <View>
@@ -55,6 +59,7 @@ class Login extends Component {
                           fontSize: 16
                       }
                   ]}
+                  onPress={handleSignin}
               >
                   Login
               </Text>
@@ -79,4 +84,16 @@ class Login extends Component {
   }
 }
 
-export default Login;
+const mapStateToProps = state => ({
+    
+});
+
+const mapDispatchToProps = dispatch => ({
+    handleSignin: () => dispatch(signin()),
+});
+  
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(Login)
